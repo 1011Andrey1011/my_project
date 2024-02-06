@@ -1,0 +1,135 @@
+body {
+    height: auto;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 10px;
+    width: 110px;
+}
+
+.content {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.picture img {
+    width: 300px;
+    height: auto;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.text {
+    font-size: 48px;
+    width: 400px;
+    
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    font-size: 36px bold #1f2937;
+    background-color: white;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+.boxes {
+    max-width: 200px;
+}
+
+.quotation {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.q_text {
+    font-size: 36px #1f2937;
+    font-style: italic;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    max-width: 300px;
+    
+    
+}
+
+.bottom {
+    background-color: white;
+    color: white ;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    margin: 50px;
+    padding: 50px;
+    background-color: #3882f6;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+
+}
+
+.s_disc {
+    font-family: 'Courier New', Courier, monospace;
+}
